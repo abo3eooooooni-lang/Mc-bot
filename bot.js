@@ -12,8 +12,8 @@ function startBot() {
     console.log('البوت متصل (AFK)');
 
     // تسجيل الحساب أوّل ما يدخل
-    bot.chat('Hi');
-
+    bot.chat('/login Funymath057356244');
+    bot.chat('.');
     // يمشي للأمام باستمرار
     bot.setControlState('forward', true);
   });
